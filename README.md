@@ -118,7 +118,7 @@ interface IProduct {
     ./gradlew build
 
 # 2. 실행 (Windows 환경)
-java -Dfile.encoding=MS949 -jar build/libs/convenience-store-system-1.0-SNAPSHOT.jar
+java -jar build/libs/convenience-store-system-1.0-SNAPSHOT.jar
 ```
 2. 메인 메뉴 및 기능별 코드
 
@@ -214,6 +214,7 @@ config = SystemConfig(stockThreshold, expiryWarningDays, config.discountPolicy)
 JDK: JDK 24
 
 빌드 도구: Gradle
+
 
 
 
